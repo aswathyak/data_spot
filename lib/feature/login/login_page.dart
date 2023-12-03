@@ -102,7 +102,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   return null;
                 },
                 onChanged: (value){
-                  passwordController.text = value;
+                  emailController.text = value;
                 },
                 
               ),
